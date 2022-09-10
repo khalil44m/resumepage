@@ -11,10 +11,19 @@ h3{
   color: #66BFBF;
 }
 
+img {
+  image-orientation: angle;
+}
+
 hr {
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
   width: 5%
+}
+
+/******************************CLASS SELECTORS******************************/
+.emphasize:hover {
+  text-shadow: 2px 2px 4px #F5EDDC;
 }
